@@ -1,0 +1,162 @@
+/* 
+	Projeto: GMD - Gerenciamento Matricial de Despesa
+	Autor: Marcelo Glacial
+	Início: 11/04/2007
+	Ultima alteracao: 11/04/2007
+*/
+
+/* Reset
+----------------------------------------------------------------*/
+* {
+	margin:0;
+	padding:0;
+	list-style:none;
+	vertical-align:middle;
+}
+
+/* Geral
+----------------------------------------------------------------*/
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	line-height:1.5em;
+	color:#666;
+	
+	background:url(../img/site_fundo.jpg) repeat-x;
+}
+hr {
+	display:none;
+}
+h2 {
+	font-family:"Trebuchet MS", Georgia, "Times New Roman", Times, serif;
+	font-size:200%;
+	color:#000;
+	
+	padding-bottom:10px;
+}
+p {
+	padding-bottom:10px;
+}
+a {
+	text-decoration:none;
+	color:#BBB;
+}
+a:hover {
+	color:#000;
+}
+
+
+/* Site
+----------------------------------------------------------------*/
+#Site {
+	width:750px;
+	margin:0 auto;
+}
+
+/* Cabecalho
+----------------------------------------------------------------*/
+#Cabecalho {
+	width:307px;
+	height:123px;
+	background:url(../img/cabecalho_logo.jpg) left top;
+	margin-top:13px;
+}
+#Cabecalho h1 {
+	display:none;
+}
+
+/* Definicao
+----------------------------------------------------------------*/
+#Definicao {
+	margin:50px 400px 80px 0;
+	padding-left:16px;
+}
+#Definicao p {
+	color:#336600;
+}
+#Definicao ul {
+	position:absolute;
+	top:115px;
+	display:block;
+	width:395px;
+	height:270px;
+	margin-left:344px;
+	padding-top:40px;
+	background:url(../img/definicao_fundo.jpg);
+}
+#Definicao li {
+	background:url(../img/definicao_estrela.jpg) left top no-repeat;
+	margin:0 40px;
+	padding:0 0 15px 35px;
+	min-height:25px;
+	line-height:1.3em;
+	
+	color:#000;
+}
+
+/* Gestao
+----------------------------------------------------------------*/
+#Gestao {
+	width:335px;
+	float:left;
+	padding:0 0 20px 16px;
+}
+#Gestao h3 {
+	position:absolute;
+	font-size:100%;
+	margin:15px 0 0 100px;
+}
+#Gestao ul {
+	background:#EFF7E7 url(../img/gestao_equipe.jpg) 17px 25px no-repeat;
+	padding:25px 10px 15px 100px;
+	border:solid 1px #B9DE8D;
+	margin:5px 0 15px 0;	
+	
+	line-height:1.3em;
+}
+
+/* Atuacao
+----------------------------------------------------------------*/
+#Atuacao {
+	margin:0 30px 0 401px;
+}
+
+/* Etapas
+----------------------------------------------------------------*/
+#Etapas {
+	margin:30px 30px 0 401px;
+}
+#Etapas img {
+	float:left;
+}
+
+/* Grupo
+----------------------------------------------------------------*/
+#Grupo {
+	clear:both;
+	display:block;
+	width:620px;
+	background:#99FF00;
+	padding:30px 50px;
+	margin:0 15px;
+}
+#Grupo h2 {
+	color:#339933;
+}
+#Grupo p {
+	color:#000;
+	padding:0;
+}
+
+/* Rodape
+----------------------------------------------------------------*/
+#Rodape {
+	margin:30px 15px;
+	padding-top:20px;
+	border-top:solid 1px #DDD;
+}
+#Rodape address {
+	font-style:normal;
+	text-transform:lowercase;
+	color:#BBB;
+}
